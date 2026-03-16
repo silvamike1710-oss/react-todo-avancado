@@ -9,7 +9,6 @@ function App(){
   const [filter,setFilter] = useState("all");
 
   return(
-
     <TaskProvider>
 
       <h1>Lista de Tarefas</h1>
@@ -21,7 +20,6 @@ function App(){
       <TaskList filter={filter}/>
 
     </TaskProvider>
-
   )
 }
 
